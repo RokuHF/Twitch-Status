@@ -22,7 +22,7 @@ if ($json->mature == 1) {
 }
 
 # Sets variable "delay" to true if stream has reduced delay enabled
-$mature = "";
+$delay = "";
 if ($json->delay == 1) {
 	$delay = "True";
 } else {
